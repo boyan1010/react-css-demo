@@ -1,3 +1,29 @@
-h1, p {
+h1,
+p {
   font-family: Lato;
+}
+
+.wrapper {
+  background: url('./assets/stone-art.jpeg');
+  display: flex;
+  height: 300px;
+  max-width: 300px;
+}
+
+.box {
+  width: 80px;
+  height: 80px;
+  border: 5px dotted #ccc;
+  background: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.border-box {
+}
+.content-box {
+  background-clip: content-box;
+}
+.padding-box {
+  background-clip: padding-box;
 }
